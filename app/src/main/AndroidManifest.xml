@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mystoreupdate">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SabziTaza Update"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".versionCode"></activity>
+        <activity android:name=".RemoveMrp" />
+        <activity android:name=".AddMrp" />
+
+        <service android:name=".myService" />
+
+        <activity android:name=".RemoveVariety" />
+        <activity android:name=".stock" />
+        <activity android:name=".User" />
+        <activity android:name=".RemovePinCode" />
+        <activity android:name=".pinCodeAdd" />
+        <activity android:name=".BannerHome" />
+        <activity android:name=".BannerDelete" />
+        <activity android:name=".Variety" />
+        <activity android:name=".Banner" />
+        <activity android:name=".LastPage" />
+        <activity android:name=".OrderHomecheck" />
+        <activity android:name=".changePrice" />
+        <activity android:name=".product1" />
+        <activity android:name=".productRemove" />
+        <activity android:name=".categoryRemove" />
+        <activity android:name=".categoryAdd" />
+        <activity android:name=".product" />
+        <activity android:name=".category" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

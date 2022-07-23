@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyStore</string>
+
+    <string name="d">Delivery Charge"       " <u>+"   "   20</u></string>
+    <string name="d1">Delivery Charge"       " <u>+"   "   10</u></string>
+    <string name="d2">Delivery Charge"       " <u>+"   "   free</u></string>
+    <string name="d3">Delivery Charge"       " <u>+"   "   40</u></string>
+    <string name="d4">Delivery Charge"       " <u>+"   "   100</u></string>
+</resources>
