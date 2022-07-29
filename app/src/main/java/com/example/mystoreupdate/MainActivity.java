@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                     if(final1==2){
-                        Intent intent=new Intent(MainActivity.this,OrderHomecheck.class);
+                        Intent intent=new Intent(MainActivity.this,OrderActivity.class);
                         //intent.putExtra("id",userId);
                         startActivity(intent);
                     }

@@ -6,20 +6,14 @@ import android.os.Bundle
 import android.preference.PreferenceManager
 import android.util.Log
 import android.widget.Button
-import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.google.firebase.database.*
 import dmax.dialog.SpotsDialog
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.tasks.await
-import okhttp3.Dispatcher
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
@@ -154,72 +148,9 @@ class OrderHomecheck : AppCompatActivity(){
         }
    // }
 
-//    private fun deleteTask() {
-//      //  GlobalScope.launch(Dispatchers.IO) {
-//            val itemTouchHelperCallback: ItemTouchHelper.SimpleCallback =
-//                object : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.RIGHT) {
-//                    override fun onMove(
-//                        recyclerView: RecyclerView,
-//                        viewHolder: ViewHolder,
-//                        target: ViewHolder
-//                    ): Boolean {
-//                        return false
-//                    }
-//
-//                    override fun onSwiped(viewHolder: ViewHolder, direction: Int) {
-//
-//                        val alertDialogBuilder = AlertDialog.Builder(applicationContext)
-//
-//                        // set title
-//                        alertDialogBuilder.setTitle("Delete")
-//
-//                        // set dialog message
-//                        alertDialogBuilder
-//                            .setMessage("Do you really want to delete it?")
-//                            .setCancelable(false)
-//                            .setPositiveButton("Yes") { dialog, id ->
-//                                Log.d("qwe", "" + hashMap)
-//                                for ((str, ar) in hashMap) {
-//                                    if (ar.contains(arr1[viewHolder.position])) {
-//                                        ref = FirebaseDatabase.getInstance().getReference("Myorder")
-//                                            .child(str)
-//                                            .child("Item").child("YourOrder")
-//                                        ref.child(arr1[viewHolder.position]).removeValue()
-//                                        Toast.makeText(
-//                                            applicationContext,
-//                                            "Removed Successfully",
-//                                            Toast.LENGTH_LONG
-//                                        )
-//                                            .show()
-//                                    }
-//                                }
-//                                arr1.removeAt(viewHolder.position)
-//                                adapter!!.notifyDataSetChanged()
-//                            }
-//                            .setNegativeButton(
-//                                "No"
-//                            ) { dialog, id -> //arr1.add(viewHolder.getPosition(),arr1.get(viewHolder.getPosition()));
-//                                adapter!!.notifyDataSetChanged()
-//                                dialog.cancel()
-//                            }
-//
-//                        // create alert dialog
-//                        val alertDialog = alertDialogBuilder.create()
-//
-//                        // show it
-//                        alertDialog.show()
-//                    }
-//                }
-//
-//
-//            fun1(arr1)
-//        //}
-//
-//
-//    }
-    //, itemTouchHelperCallback: ItemTouchHelper.Callback?
-    fun fun1(arr1: ArrayList<String> , hashMap: HashMap<String,ArrayList<String>>) {
-       // GlobalScope.launch(Dispatchers.Default) {
+
+    fun fun1(arr1: ArrayList<String>, hashMap: HashMap<String, ArrayList<String>>) {
+        // GlobalScope.launch(Dispatchers.Default) {
         Log.d("Before sort", "" + arr1)
         //Toast.makeText(OrderHome.this,""+arr1,Toast.LENGTH_LONG).show();
         //Collections.reverse(arr1);

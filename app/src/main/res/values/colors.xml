@@ -6,4 +6,20 @@
     <color name="black">#000000</color>
     <color name="gray">#41CEFC</color>
     <color name="colorAccent">#41CEFC</color>
+
+
+    <color name="colorSecondary">#fe9501</color>
+    <color name="colorSecondaryLight">#FBAC0A</color>
+    <color name="colorSecondaryDark">#D58700</color>
+    <color name="blue">#2196F3</color>
+    <color name="lightBlue">#41CEFC</color>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimary11">#0a091b</color>
+    <color name="colorPrimaryDark11">#070716</color>
+
+    <color name="rippleEffectColor">#FFEB3B</color>
+    <color name="btnSignIn">#1fbad6</color>
+    <color name="btnRegister">#83838c</color>
+    <color name="primary">#192648</color>
+    <color name="btnprimary">#fe9501</color>
 </resources>

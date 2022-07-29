@@ -6,4 +6,7 @@
     <string name="d2">Delivery Charge"       " <u>+"   "   free</u></string>
     <string name="d3">Delivery Charge"       " <u>+"   "   40</u></string>
     <string name="d4">Delivery Charge"       " <u>+"   "   100</u></string>
+    <string name="order_home">Order Home</string>
+    <string name="old_orders">Old Orders</string>
+    <string name="new_orders">New Orders</string>
 </resources>
